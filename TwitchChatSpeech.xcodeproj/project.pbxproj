@@ -15,6 +15,24 @@
 		A6894ACC1B57A518003C9245 /* TwitchChatSpeechTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6894ACB1B57A518003C9245 /* TwitchChatSpeechTests.m */; };
 		A6894AD71B57A645003C9245 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6894AD61B57A645003C9245 /* SettingsViewController.m */; };
 		A6894ADD1B57A67B003C9245 /* ChatRoomController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6894ADC1B57A67B003C9245 /* ChatRoomController.m */; };
+		A6894BCF1B57BF2C003C9245 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = A6894BCC1B57BF2C003C9245 /* DDLog.m */; };
+		A6894BD01B57BF2C003C9245 /* MVDelegateLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A6894BCE1B57BF2C003C9245 /* MVDelegateLogger.m */; };
+		A6894BD71B57BF40003C9245 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = A6894BD21B57BF40003C9245 /* GCDAsyncSocket.m */; };
+		A6894BD81B57BF40003C9245 /* InterThreadMessaging.m in Sources */ = {isa = PBXBuildFile; fileRef = A6894BD41B57BF40003C9245 /* InterThreadMessaging.m */; };
+		A6894BD91B57BF40003C9245 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = A6894BD61B57BF40003C9245 /* RegexKitLite.m */; };
+		A6894BE31B57BF62003C9245 /* MVIRCChatConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = A6894BDB1B57BF62003C9245 /* MVIRCChatConnection.m */; };
+		A6894BE41B57BF62003C9245 /* MVIRCChatRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = A6894BDD1B57BF62003C9245 /* MVIRCChatRoom.m */; };
+		A6894BE51B57BF62003C9245 /* MVIRCChatUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A6894BDF1B57BF62003C9245 /* MVIRCChatUser.m */; };
+		A6894BE61B57BF62003C9245 /* MVIRCFileTransfer.m in Sources */ = {isa = PBXBuildFile; fileRef = A6894BE11B57BF62003C9245 /* MVIRCFileTransfer.m */; };
+		A6894BFD1B57C022003C9245 /* MVChatConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = A6894BEA1B57C022003C9245 /* MVChatConnection.m */; };
+		A6894BFE1B57C022003C9245 /* MVChatRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = A6894BED1B57C022003C9245 /* MVChatRoom.m */; };
+		A6894BFF1B57C022003C9245 /* MVChatUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A6894BF11B57C022003C9245 /* MVChatUser.m */; };
+		A6894C001B57C022003C9245 /* MVChatUserWatchRule.m in Sources */ = {isa = PBXBuildFile; fileRef = A6894BF41B57C022003C9245 /* MVChatUserWatchRule.m */; };
+		A6894C011B57C022003C9245 /* MVDirectChatConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = A6894BF61B57C022003C9245 /* MVDirectChatConnection.m */; };
+		A6894C021B57C022003C9245 /* MVDirectClientConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = A6894BF91B57C022003C9245 /* MVDirectClientConnection.m */; };
+		A6894C031B57C022003C9245 /* MVFileTransfer.m in Sources */ = {isa = PBXBuildFile; fileRef = A6894BFB1B57C022003C9245 /* MVFileTransfer.m */; };
+		A6894C071B57C2DF003C9245 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6894C061B57C2DF003C9245 /* Foundation.framework */; };
+		A6894C0A1B57C3EA003C9245 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6894C091B57C3EA003C9245 /* CoreFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +61,49 @@
 		A6894AD61B57A645003C9245 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		A6894ADB1B57A67B003C9245 /* ChatRoomController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatRoomController.h; sourceTree = "<group>"; };
 		A6894ADC1B57A67B003C9245 /* ChatRoomController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatRoomController.m; sourceTree = "<group>"; };
+		A6894BCB1B57BF2C003C9245 /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDLog.h; path = ChatCore/Logging/DDLog.h; sourceTree = "<group>"; };
+		A6894BCC1B57BF2C003C9245 /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDLog.m; path = ChatCore/Logging/DDLog.m; sourceTree = "<group>"; };
+		A6894BCD1B57BF2C003C9245 /* MVDelegateLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MVDelegateLogger.h; path = ChatCore/Logging/MVDelegateLogger.h; sourceTree = "<group>"; };
+		A6894BCE1B57BF2C003C9245 /* MVDelegateLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MVDelegateLogger.m; path = ChatCore/Logging/MVDelegateLogger.m; sourceTree = "<group>"; };
+		A6894BD11B57BF40003C9245 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = ChatCore/GCDAsyncSocket.h; sourceTree = "<group>"; };
+		A6894BD21B57BF40003C9245 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = ChatCore/GCDAsyncSocket.m; sourceTree = "<group>"; };
+		A6894BD31B57BF40003C9245 /* InterThreadMessaging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InterThreadMessaging.h; path = ChatCore/InterThreadMessaging.h; sourceTree = "<group>"; };
+		A6894BD41B57BF40003C9245 /* InterThreadMessaging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InterThreadMessaging.m; path = ChatCore/InterThreadMessaging.m; sourceTree = "<group>"; };
+		A6894BD51B57BF40003C9245 /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegexKitLite.h; path = ChatCore/RegexKitLite.h; sourceTree = "<group>"; };
+		A6894BD61B57BF40003C9245 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegexKitLite.m; path = ChatCore/RegexKitLite.m; sourceTree = "<group>"; };
+		A6894BDA1B57BF62003C9245 /* MVIRCChatConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MVIRCChatConnection.h; path = ChatCore/MVIRCChatConnection.h; sourceTree = "<group>"; };
+		A6894BDB1B57BF62003C9245 /* MVIRCChatConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MVIRCChatConnection.m; path = ChatCore/MVIRCChatConnection.m; sourceTree = "<group>"; };
+		A6894BDC1B57BF62003C9245 /* MVIRCChatRoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MVIRCChatRoom.h; path = ChatCore/MVIRCChatRoom.h; sourceTree = "<group>"; };
+		A6894BDD1B57BF62003C9245 /* MVIRCChatRoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MVIRCChatRoom.m; path = ChatCore/MVIRCChatRoom.m; sourceTree = "<group>"; };
+		A6894BDE1B57BF62003C9245 /* MVIRCChatUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MVIRCChatUser.h; path = ChatCore/MVIRCChatUser.h; sourceTree = "<group>"; };
+		A6894BDF1B57BF62003C9245 /* MVIRCChatUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MVIRCChatUser.m; path = ChatCore/MVIRCChatUser.m; sourceTree = "<group>"; };
+		A6894BE01B57BF62003C9245 /* MVIRCFileTransfer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MVIRCFileTransfer.h; path = ChatCore/MVIRCFileTransfer.h; sourceTree = "<group>"; };
+		A6894BE11B57BF62003C9245 /* MVIRCFileTransfer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MVIRCFileTransfer.m; path = ChatCore/MVIRCFileTransfer.m; sourceTree = "<group>"; };
+		A6894BE21B57BF62003C9245 /* MVIRCNumerics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MVIRCNumerics.h; path = ChatCore/MVIRCNumerics.h; sourceTree = "<group>"; };
+		A6894BE71B57C022003C9245 /* ChatCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChatCore.h; path = ChatCore/ChatCore.h; sourceTree = "<group>"; };
+		A6894BE81B57C022003C9245 /* MVAvailability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MVAvailability.h; path = ChatCore/MVAvailability.h; sourceTree = "<group>"; };
+		A6894BE91B57C022003C9245 /* MVChatConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MVChatConnection.h; path = ChatCore/MVChatConnection.h; sourceTree = "<group>"; };
+		A6894BEA1B57C022003C9245 /* MVChatConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MVChatConnection.m; path = ChatCore/MVChatConnection.m; sourceTree = "<group>"; };
+		A6894BEB1B57C022003C9245 /* MVChatConnectionPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MVChatConnectionPrivate.h; path = ChatCore/MVChatConnectionPrivate.h; sourceTree = "<group>"; };
+		A6894BEC1B57C022003C9245 /* MVChatRoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MVChatRoom.h; path = ChatCore/MVChatRoom.h; sourceTree = "<group>"; };
+		A6894BED1B57C022003C9245 /* MVChatRoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MVChatRoom.m; path = ChatCore/MVChatRoom.m; sourceTree = "<group>"; };
+		A6894BEE1B57C022003C9245 /* MVChatRoomPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MVChatRoomPrivate.h; path = ChatCore/MVChatRoomPrivate.h; sourceTree = "<group>"; };
+		A6894BEF1B57C022003C9245 /* MVChatString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MVChatString.h; path = ChatCore/MVChatString.h; sourceTree = "<group>"; };
+		A6894BF01B57C022003C9245 /* MVChatUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MVChatUser.h; path = ChatCore/MVChatUser.h; sourceTree = "<group>"; };
+		A6894BF11B57C022003C9245 /* MVChatUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MVChatUser.m; path = ChatCore/MVChatUser.m; sourceTree = "<group>"; };
+		A6894BF21B57C022003C9245 /* MVChatUserPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MVChatUserPrivate.h; path = ChatCore/MVChatUserPrivate.h; sourceTree = "<group>"; };
+		A6894BF31B57C022003C9245 /* MVChatUserWatchRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MVChatUserWatchRule.h; path = ChatCore/MVChatUserWatchRule.h; sourceTree = "<group>"; };
+		A6894BF41B57C022003C9245 /* MVChatUserWatchRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MVChatUserWatchRule.m; path = ChatCore/MVChatUserWatchRule.m; sourceTree = "<group>"; };
+		A6894BF51B57C022003C9245 /* MVDirectChatConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MVDirectChatConnection.h; path = ChatCore/MVDirectChatConnection.h; sourceTree = "<group>"; };
+		A6894BF61B57C022003C9245 /* MVDirectChatConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MVDirectChatConnection.m; path = ChatCore/MVDirectChatConnection.m; sourceTree = "<group>"; };
+		A6894BF71B57C022003C9245 /* MVDirectChatConnectionPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MVDirectChatConnectionPrivate.h; path = ChatCore/MVDirectChatConnectionPrivate.h; sourceTree = "<group>"; };
+		A6894BF81B57C022003C9245 /* MVDirectClientConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MVDirectClientConnection.h; path = ChatCore/MVDirectClientConnection.h; sourceTree = "<group>"; };
+		A6894BF91B57C022003C9245 /* MVDirectClientConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MVDirectClientConnection.m; path = ChatCore/MVDirectClientConnection.m; sourceTree = "<group>"; };
+		A6894BFA1B57C022003C9245 /* MVFileTransfer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MVFileTransfer.h; path = ChatCore/MVFileTransfer.h; sourceTree = "<group>"; };
+		A6894BFB1B57C022003C9245 /* MVFileTransfer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MVFileTransfer.m; path = ChatCore/MVFileTransfer.m; sourceTree = "<group>"; };
+		A6894BFC1B57C022003C9245 /* MVFileTransferPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MVFileTransferPrivate.h; path = ChatCore/MVFileTransferPrivate.h; sourceTree = "<group>"; };
+		A6894C061B57C2DF003C9245 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6894C091B57C3EA003C9245 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +111,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6894C0A1B57C3EA003C9245 /* CoreFoundation.framework in Frameworks */,
+				A6894C071B57C2DF003C9245 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +129,8 @@
 		A6894AA31B57A517003C9245 = {
 			isa = PBXGroup;
 			children = (
+				A6894C081B57C31C003C9245 /* Frameworks */,
+				A6894B9E1B57BD0B003C9245 /* ChatCore */,
 				A6894AAE1B57A517003C9245 /* TwitchChatSpeech */,
 				A6894AC81B57A517003C9245 /* TwitchChatSpeechTests */,
 				A6894AAD1B57A517003C9245 /* Products */,
@@ -122,6 +187,87 @@
 				A6894ACA1B57A518003C9245 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A6894B9E1B57BD0B003C9245 /* ChatCore */ = {
+			isa = PBXGroup;
+			children = (
+				A6894BBE1B57BE37003C9245 /* IRC Support */,
+				A6894BBD1B57BE29003C9245 /* Utility Classes */,
+				A6894BBC1B57BE1B003C9245 /* Logging */,
+				A6894BE71B57C022003C9245 /* ChatCore.h */,
+				A6894BE81B57C022003C9245 /* MVAvailability.h */,
+				A6894BE91B57C022003C9245 /* MVChatConnection.h */,
+				A6894BEA1B57C022003C9245 /* MVChatConnection.m */,
+				A6894BEB1B57C022003C9245 /* MVChatConnectionPrivate.h */,
+				A6894BEC1B57C022003C9245 /* MVChatRoom.h */,
+				A6894BED1B57C022003C9245 /* MVChatRoom.m */,
+				A6894BEE1B57C022003C9245 /* MVChatRoomPrivate.h */,
+				A6894BEF1B57C022003C9245 /* MVChatString.h */,
+				A6894BF01B57C022003C9245 /* MVChatUser.h */,
+				A6894BF11B57C022003C9245 /* MVChatUser.m */,
+				A6894BF21B57C022003C9245 /* MVChatUserPrivate.h */,
+				A6894BF31B57C022003C9245 /* MVChatUserWatchRule.h */,
+				A6894BF41B57C022003C9245 /* MVChatUserWatchRule.m */,
+				A6894BF51B57C022003C9245 /* MVDirectChatConnection.h */,
+				A6894BF61B57C022003C9245 /* MVDirectChatConnection.m */,
+				A6894BF71B57C022003C9245 /* MVDirectChatConnectionPrivate.h */,
+				A6894BF81B57C022003C9245 /* MVDirectClientConnection.h */,
+				A6894BF91B57C022003C9245 /* MVDirectClientConnection.m */,
+				A6894BFA1B57C022003C9245 /* MVFileTransfer.h */,
+				A6894BFB1B57C022003C9245 /* MVFileTransfer.m */,
+				A6894BFC1B57C022003C9245 /* MVFileTransferPrivate.h */,
+			);
+			name = ChatCore;
+			sourceTree = "<group>";
+		};
+		A6894BBC1B57BE1B003C9245 /* Logging */ = {
+			isa = PBXGroup;
+			children = (
+				A6894BCB1B57BF2C003C9245 /* DDLog.h */,
+				A6894BCC1B57BF2C003C9245 /* DDLog.m */,
+				A6894BCD1B57BF2C003C9245 /* MVDelegateLogger.h */,
+				A6894BCE1B57BF2C003C9245 /* MVDelegateLogger.m */,
+			);
+			name = Logging;
+			sourceTree = "<group>";
+		};
+		A6894BBD1B57BE29003C9245 /* Utility Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A6894BD11B57BF40003C9245 /* GCDAsyncSocket.h */,
+				A6894BD21B57BF40003C9245 /* GCDAsyncSocket.m */,
+				A6894BD31B57BF40003C9245 /* InterThreadMessaging.h */,
+				A6894BD41B57BF40003C9245 /* InterThreadMessaging.m */,
+				A6894BD51B57BF40003C9245 /* RegexKitLite.h */,
+				A6894BD61B57BF40003C9245 /* RegexKitLite.m */,
+			);
+			name = "Utility Classes";
+			sourceTree = "<group>";
+		};
+		A6894BBE1B57BE37003C9245 /* IRC Support */ = {
+			isa = PBXGroup;
+			children = (
+				A6894BDA1B57BF62003C9245 /* MVIRCChatConnection.h */,
+				A6894BDB1B57BF62003C9245 /* MVIRCChatConnection.m */,
+				A6894BDC1B57BF62003C9245 /* MVIRCChatRoom.h */,
+				A6894BDD1B57BF62003C9245 /* MVIRCChatRoom.m */,
+				A6894BDE1B57BF62003C9245 /* MVIRCChatUser.h */,
+				A6894BDF1B57BF62003C9245 /* MVIRCChatUser.m */,
+				A6894BE01B57BF62003C9245 /* MVIRCFileTransfer.h */,
+				A6894BE11B57BF62003C9245 /* MVIRCFileTransfer.m */,
+				A6894BE21B57BF62003C9245 /* MVIRCNumerics.h */,
+			);
+			name = "IRC Support";
+			sourceTree = "<group>";
+		};
+		A6894C081B57C31C003C9245 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6894C091B57C3EA003C9245 /* CoreFoundation.framework */,
+				A6894C061B57C2DF003C9245 /* Foundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,10 +370,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6894BD91B57BF40003C9245 /* RegexKitLite.m in Sources */,
+				A6894BCF1B57BF2C003C9245 /* DDLog.m in Sources */,
+				A6894BE51B57BF62003C9245 /* MVIRCChatUser.m in Sources */,
+				A6894BD81B57BF40003C9245 /* InterThreadMessaging.m in Sources */,
 				A6894ADD1B57A67B003C9245 /* ChatRoomController.m in Sources */,
 				A6894AD71B57A645003C9245 /* SettingsViewController.m in Sources */,
+				A6894C001B57C022003C9245 /* MVChatUserWatchRule.m in Sources */,
+				A6894C011B57C022003C9245 /* MVDirectChatConnection.m in Sources */,
+				A6894BD01B57BF2C003C9245 /* MVDelegateLogger.m in Sources */,
+				A6894BE61B57BF62003C9245 /* MVIRCFileTransfer.m in Sources */,
+				A6894BFD1B57C022003C9245 /* MVChatConnection.m in Sources */,
+				A6894C031B57C022003C9245 /* MVFileTransfer.m in Sources */,
+				A6894BFF1B57C022003C9245 /* MVChatUser.m in Sources */,
+				A6894BFE1B57C022003C9245 /* MVChatRoom.m in Sources */,
+				A6894BE41B57BF62003C9245 /* MVIRCChatRoom.m in Sources */,
+				A6894C021B57C022003C9245 /* MVDirectClientConnection.m in Sources */,
 				A6894AB51B57A517003C9245 /* AppDelegate.m in Sources */,
+				A6894BD71B57BF40003C9245 /* GCDAsyncSocket.m in Sources */,
 				A6894AB21B57A517003C9245 /* main.m in Sources */,
+				A6894BE31B57BF62003C9245 /* MVIRCChatConnection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

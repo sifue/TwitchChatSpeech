@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>03C71DE8-2FF3-4684-9525-67D73F345C7C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DEC28B777EE7E46799564CECDD7370397E4871EC</key>
+		<string>github.com:sifue/TwitchChatSpeech.git</string>
+		<key>cc480944-b4dd-0310-b5e3-89908df9b951++505</key>
+		<string>http://source.colloquy.info/svn/trunk</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TwitchChatSpeech.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DEC28B777EE7E46799564CECDD7370397E4871EC</key>
+		<string>../..</string>
+		<key>cc480944-b4dd-0310-b5e3-89908df9b951++505</key>
+		<string>../../../Colloquy</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>cc480944-b4dd-0310-b5e3-89908df9b951++505</key>
+		<string>http://source.colloquy.info/svn</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:sifue/TwitchChatSpeech.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DEC28B777EE7E46799564CECDD7370397E4871EC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>cc480944-b4dd-0310-b5e3-89908df9b951++505</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Colloquy</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DEC28B777EE7E46799564CECDD7370397E4871EC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TwitchChatSpeech</string>
+		</dict>
+	</array>
+</dict>
+</plist>
