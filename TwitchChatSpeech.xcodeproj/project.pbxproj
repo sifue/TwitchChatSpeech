@@ -33,6 +33,8 @@
 		A6894C031B57C022003C9245 /* MVFileTransfer.m in Sources */ = {isa = PBXBuildFile; fileRef = A6894BFB1B57C022003C9245 /* MVFileTransfer.m */; };
 		A6894C071B57C2DF003C9245 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6894C061B57C2DF003C9245 /* Foundation.framework */; };
 		A6894C0A1B57C3EA003C9245 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6894C091B57C3EA003C9245 /* CoreFoundation.framework */; };
+		A6894C181B57D16E003C9245 /* NSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A6894C161B57D16E003C9245 /* NSStringAdditions.m */; };
+		A6894C1C1B57D1AB003C9245 /* NSNotificationAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A6894C1A1B57D1AB003C9245 /* NSNotificationAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +106,11 @@
 		A6894BFC1B57C022003C9245 /* MVFileTransferPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MVFileTransferPrivate.h; path = ChatCore/MVFileTransferPrivate.h; sourceTree = "<group>"; };
 		A6894C061B57C2DF003C9245 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A6894C091B57C3EA003C9245 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		A6894C161B57D16E003C9245 /* NSStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringAdditions.m; sourceTree = "<group>"; };
+		A6894C171B57D16E003C9245 /* NSStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringAdditions.h; sourceTree = "<group>"; };
+		A6894C191B57D195003C9245 /* MVUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVUtilities.h; sourceTree = "<group>"; };
+		A6894C1A1B57D1AB003C9245 /* NSNotificationAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSNotificationAdditions.m; sourceTree = "<group>"; };
+		A6894C1B1B57D1AB003C9245 /* NSNotificationAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSNotificationAdditions.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +199,11 @@
 		A6894B9E1B57BD0B003C9245 /* ChatCore */ = {
 			isa = PBXGroup;
 			children = (
+				A6894C191B57D195003C9245 /* MVUtilities.h */,
+				A6894C161B57D16E003C9245 /* NSStringAdditions.m */,
+				A6894C171B57D16E003C9245 /* NSStringAdditions.h */,
+				A6894C1A1B57D1AB003C9245 /* NSNotificationAdditions.m */,
+				A6894C1B1B57D1AB003C9245 /* NSNotificationAdditions.h */,
 				A6894BBE1B57BE37003C9245 /* IRC Support */,
 				A6894BBD1B57BE29003C9245 /* Utility Classes */,
 				A6894BBC1B57BE1B003C9245 /* Logging */,
@@ -382,8 +394,10 @@
 				A6894BE61B57BF62003C9245 /* MVIRCFileTransfer.m in Sources */,
 				A6894BFD1B57C022003C9245 /* MVChatConnection.m in Sources */,
 				A6894C031B57C022003C9245 /* MVFileTransfer.m in Sources */,
+				A6894C181B57D16E003C9245 /* NSStringAdditions.m in Sources */,
 				A6894BFF1B57C022003C9245 /* MVChatUser.m in Sources */,
 				A6894BFE1B57C022003C9245 /* MVChatRoom.m in Sources */,
+				A6894C1C1B57D1AB003C9245 /* NSNotificationAdditions.m in Sources */,
 				A6894BE41B57BF62003C9245 /* MVIRCChatRoom.m in Sources */,
 				A6894C021B57C022003C9245 /* MVDirectClientConnection.m in Sources */,
 				A6894AB51B57A517003C9245 /* AppDelegate.m in Sources */,
@@ -586,6 +600,7 @@
 				A6894AD11B57A518003C9245 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A6894AD21B57A518003C9245 /* Build configuration list for PBXNativeTarget "TwitchChatSpeechTests" */ = {
 			isa = XCConfigurationList;
@@ -594,6 +609,7 @@
 				A6894AD41B57A518003C9245 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
