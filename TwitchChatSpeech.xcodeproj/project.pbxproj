@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		A6894AB21B57A517003C9245 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6894AB11B57A517003C9245 /* main.m */; };
 		A6894AB51B57A517003C9245 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6894AB41B57A517003C9245 /* AppDelegate.m */; };
-		A6894AB81B57A517003C9245 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6894AB71B57A517003C9245 /* ViewController.m */; };
 		A6894ABB1B57A517003C9245 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6894AB91B57A517003C9245 /* Main.storyboard */; };
 		A6894ABD1B57A517003C9245 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6894ABC1B57A517003C9245 /* Images.xcassets */; };
 		A6894AC01B57A517003C9245 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6894ABE1B57A517003C9245 /* LaunchScreen.xib */; };
 		A6894ACC1B57A518003C9245 /* TwitchChatSpeechTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6894ACB1B57A518003C9245 /* TwitchChatSpeechTests.m */; };
+		A6894AD71B57A645003C9245 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6894AD61B57A645003C9245 /* SettingsViewController.m */; };
+		A6894ADD1B57A67B003C9245 /* ChatRoomController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6894ADC1B57A67B003C9245 /* ChatRoomController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +33,16 @@
 		A6894AB11B57A517003C9245 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A6894AB31B57A517003C9245 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A6894AB41B57A517003C9245 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A6894AB61B57A517003C9245 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A6894AB71B57A517003C9245 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A6894ABA1B57A517003C9245 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A6894ABC1B57A517003C9245 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A6894ABF1B57A517003C9245 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A6894AC51B57A517003C9245 /* TwitchChatSpeechTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitchChatSpeechTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6894ACA1B57A518003C9245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6894ACB1B57A518003C9245 /* TwitchChatSpeechTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwitchChatSpeechTests.m; sourceTree = "<group>"; };
+		A6894AD51B57A645003C9245 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		A6894AD61B57A645003C9245 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		A6894ADB1B57A67B003C9245 /* ChatRoomController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatRoomController.h; sourceTree = "<group>"; };
+		A6894ADC1B57A67B003C9245 /* ChatRoomController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatRoomController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +86,14 @@
 			children = (
 				A6894AB31B57A517003C9245 /* AppDelegate.h */,
 				A6894AB41B57A517003C9245 /* AppDelegate.m */,
-				A6894AB61B57A517003C9245 /* ViewController.h */,
-				A6894AB71B57A517003C9245 /* ViewController.m */,
 				A6894AB91B57A517003C9245 /* Main.storyboard */,
 				A6894ABC1B57A517003C9245 /* Images.xcassets */,
 				A6894ABE1B57A517003C9245 /* LaunchScreen.xib */,
 				A6894AAF1B57A517003C9245 /* Supporting Files */,
+				A6894AD51B57A645003C9245 /* SettingsViewController.h */,
+				A6894AD61B57A645003C9245 /* SettingsViewController.m */,
+				A6894ADB1B57A67B003C9245 /* ChatRoomController.h */,
+				A6894ADC1B57A67B003C9245 /* ChatRoomController.m */,
 			);
 			path = TwitchChatSpeech;
 			sourceTree = "<group>";
@@ -219,7 +224,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6894AB81B57A517003C9245 /* ViewController.m in Sources */,
+				A6894ADD1B57A67B003C9245 /* ChatRoomController.m in Sources */,
+				A6894AD71B57A645003C9245 /* SettingsViewController.m in Sources */,
 				A6894AB51B57A517003C9245 /* AppDelegate.m in Sources */,
 				A6894AB21B57A517003C9245 /* main.m in Sources */,
 			);
